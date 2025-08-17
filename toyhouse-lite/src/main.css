@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light dark; }
+
+/* Smooth card */
+.card { @apply rounded-2xl border bg-white/80 dark:bg-slate-800/80 backdrop-blur shadow; }
+.btn  { @apply px-3 py-2 rounded-xl border hover:bg-slate-100 dark:hover:bg-slate-700; }
+.btnp { @apply px-3 py-2 rounded-xl bg-slate-900 text-white dark:bg-white dark:text-slate-900; }
+.pill { @apply px-2 py-0.5 rounded-full text-xs border shadow-sm; }
